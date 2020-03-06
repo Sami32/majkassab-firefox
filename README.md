@@ -1,4 +1,6 @@
-This configuration will improve the security of Firefox
+This configuration will improve the security of Firefox.
+https://trac.torproject.org/projects/tor/ticket/28168
+https://bugzilla.mozilla.org/show_bug.cgi?id=1540618
 
 1- open firefox
 
@@ -18,15 +20,17 @@ security.mixed_content.block_display_content;true
 
 security.mixed_content.block_object_subrequest;true
 
-security.ssl.require_safe_negotiation true
+security.ssl.require_safe_negotiation;true
 
 security.webauth.u2f;true
 
-network.trr.mode 2
+network.trr.mode;3
 
-network.trr.uri;https://mozilla.cloudflare-dns.com/dns-query
+network.trr.uri;https://1.1.1.1/dns-query
 
-network.trr.bootstrapAddress;1.1.1.1
+network.trr.bootstrapAddress;104.16.249.249
+
+security.OCSP.enabled;0
 
 network.security.esni.enabled;true
 
@@ -44,11 +48,9 @@ security.OCSP.require;true
 
 security.ssl.treat_unsafe_negotiation_as_broken;true
 
-dom.battery.enabled;false
-
 extensions.pocket.enabled;false
 
-privacy.resistFingerprinting;true
+privacy.resistFingerprinting;true //The backgroung image in the captcha where we need to move a piece of a puzzle to the correct position will not be showed
 
 privacy.firstparty.isolate;true
 
@@ -68,7 +70,9 @@ browser.safebrowsing.phishing.enabled;false
 
 =========== Level 3 - Paranoid Protection ===========
 
-dom.event.clipboardevents.enabled;false
+browser.sessionstore.max_tabs_undo;0
+
+dom.event.clipboardevents.enabled;false //Disable copy/paste
 
 dom.serviceWorkers.enabled;false //about:serviceworkers
 
@@ -76,17 +80,17 @@ media.peerconnection.enabled;false
 
 media.navigator.enabled;false
 
-privacy.firstparty.isolate.restrict_opener_access=false
+privacy.firstparty.isolate.restrict_opener_access;false
 
 dom.battery.enabled;false
 
 network.cookie.lifetimePolicy;2
 
-network.http.referer.trimmingPolicy;2
+network.http.referer.trimmingPolicy;2 //Some websites login will not be accessible to access with level 2
 
-network.http.referer.XOriginPolicy;2
+network.http.referer.XOriginPolicy;2 //Some websites login will not be accessible to access with level 2
 
-network.http.referer.XOriginTrimmingPolicy;2
+network.http.referer.XOriginTrimmingPolicy;2 //Some websites login will not be accessible to access with level 2
 
 browser.sessionstore.privacy_level;2
 
