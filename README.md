@@ -6,7 +6,7 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=1540618
 
 2- In the address bar, type about:config and press Return
 
-3-Seach and edit the following settings:
+3- Seach and edit the following settings:
 
 =========== Level 1 - Comfortable Protection ===========
 
@@ -86,11 +86,11 @@ dom.battery.enabled;false
 
 network.cookie.lifetimePolicy;2
 
-network.http.referer.trimmingPolicy;2 //Some websites login will not be accessible to access with level 2
+network.http.referer.trimmingPolicy;2 //Some websites login will not work anymore
 
-network.http.referer.XOriginPolicy;2 //Some websites login will not be accessible to access with level 2
+network.http.referer.XOriginPolicy;2 //Some websites login will not work anymore
 
-network.http.referer.XOriginTrimmingPolicy;2 //Some websites login will not be accessible to access with level 2
+network.http.referer.XOriginTrimmingPolicy;2 //Some websites login will not work anymore
 
 browser.sessionstore.privacy_level;2
 
