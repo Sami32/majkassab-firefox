@@ -8,6 +8,7 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=1540618
 
 3- Seach and edit the following settings:
 
+
 =========== Level 1 - Comfortable Protection ===========
 
 security.pki.distrust_ca_policy;2
@@ -36,6 +37,7 @@ network.security.esni.enabled;true
 
 network.IDN_show_punycode;true
 
+
 =========== Level 2 - High Protection ===========
 
 security.ssl3.rsa_des_ede3_sha;false
@@ -62,11 +64,6 @@ webgl.disabled;true
 
 browser.send_pings;false
 
-browser.cache.offline.enable;false
-
-browser.safebrowsing.malware.enabled;false
-
-browser.safebrowsing.phishing.enabled;false
 
 =========== Level 3 - Paranoid Protection ===========
 
