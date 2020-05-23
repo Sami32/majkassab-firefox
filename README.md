@@ -37,6 +37,8 @@ network.security.esni.enabled;true
 
 network.IDN_show_punycode;true
 
+toolkit.telemetry.enabled;false
+
 
 =========== Level 2 - High Protection ===========
 
@@ -83,9 +85,19 @@ privacy.firstparty.isolate.restrict_opener_access;false
 
 dom.battery.enabled;false
 
+dom.enable_performance;false
+
+dom.enable_resource_timing;false
+
+network.cookie.thirdparty.sessionOnly;true
+
+network.cookie.thirdparty.nonsecureSessionOnly;true
+
 network.cookie.lifetimePolicy;2
 
 network.cookie.cookieBehavior;4 //May also break the functionality of some websites
+
+network.http.referer.spoofSource;true
 
 network.http.referer.trimmingPolicy;2 //Some websites login will not work anymore
 
@@ -95,7 +107,23 @@ network.http.referer.XOriginTrimmingPolicy;2 //Some websites login will not work
 
 browser.sessionstore.privacy_level;2
 
+browser.send_pings.max_per_link;0
+
+breakpad.reportURL;
+
+browser.search.geoip.url;
+
+browser.search.geoip.timeout;1
+
 geo.enabled;false
+
+network.dnsCacheEntries;0
+
+network.http.redirection-limit;3
+
+beacon.enabled;false
+
+media.video_stats.enabled;false
 
 security.ssl3.dhe_rsa_aes_128_sha;false
 
