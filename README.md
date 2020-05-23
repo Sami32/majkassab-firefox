@@ -85,6 +85,8 @@ dom.battery.enabled;false
 
 network.cookie.lifetimePolicy;2
 
+network.cookie.cookieBehavior;4 //May also break the functionality of some websites
+
 network.http.referer.trimmingPolicy;2 //Some websites login will not work anymore
 
 network.http.referer.XOriginPolicy;2 //Some websites login will not work anymore
