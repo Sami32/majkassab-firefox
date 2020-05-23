@@ -64,6 +64,8 @@ webgl.disabled;true
 
 browser.send_pings;false
 
+browser.cache.offline.enable;false
+
 
 =========== Level 3 - Paranoid Protection ===========
 
