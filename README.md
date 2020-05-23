@@ -107,7 +107,11 @@ network.http.referer.XOriginTrimmingPolicy;2 //Some websites login will not work
 
 browser.sessionstore.privacy_level;2
 
-browser.send_pings.max_per_link;0
+browser.search.suggest.enabled;false
+
+browser.search.geoSpecificDefaults.url;
+
+browser.search.geoSpecificDefaults;false
 
 breakpad.reportURL;
 
