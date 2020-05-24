@@ -27,8 +27,7 @@ security.webauth.u2f;true
 
 network.trr.mode;3
 
-network.trr.uri;https://1.1.1.1/dns-query
-
+network.trr.uri;https://mozilla.cloudflare-dns.com/dns-query
 network.trr.bootstrapAddress;104.16.249.249
 
 security.OCSP.enabled;0
