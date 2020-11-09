@@ -38,6 +38,7 @@ network.IDN_show_punycode;true
 
 toolkit.telemetry.enabled;false
 
+general.useragent.override;Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4
 
 =========== Level 2 - High Protection ===========
 
