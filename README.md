@@ -46,15 +46,9 @@ security.ssl3.rsa_aes_128_sha;false
 
 security.ssl3.rsa_aes_256_sha;false
 
-security.ssl3.rsa_aes_128_gcm_sha256;false
-
-security.ssl3.rsa_aes_256_gcm_sha384;false
-
 security.OCSP.require;true
 
 security.ssl.treat_unsafe_negotiation_as_broken;true
-
-extensions.pocket.enabled;false
 
 privacy.resistFingerprinting;true //The backgroung image in the captcha where we need to move a piece of a puzzle to the correct position will not be showed
 
