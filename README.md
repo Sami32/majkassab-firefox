@@ -93,7 +93,7 @@ network.cookie.lifetimePolicy;2
 
 network.cookie.cookieBehavior;4 //May also break the functionality of some websites
 
-network.http.referer.spoofSource;true
+network.http.referer.spoofSource;true //Some login session with 2FA will fail
 
 network.http.referer.trimmingPolicy;2 //Some websites login will not work anymore
 
