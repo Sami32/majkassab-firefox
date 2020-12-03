@@ -38,8 +38,6 @@ network.IDN_show_punycode;true
 
 toolkit.telemetry.enabled;false
 
-general.useragent.override;Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4
-
 =========== Level 2 - High Protection ===========
 
 security.ssl3.rsa_des_ede3_sha;false
@@ -47,6 +45,10 @@ security.ssl3.rsa_des_ede3_sha;false
 security.ssl3.rsa_aes_128_sha;false
 
 security.ssl3.rsa_aes_256_sha;false
+
+security.ssl3.rsa_aes_128_gcm_sha256;false
+
+security.ssl3.rsa_aes_256_gcm_sha384;false
 
 security.OCSP.require;true
 
