@@ -105,15 +105,7 @@ browser.sessionstore.privacy_level;2
 
 browser.search.suggest.enabled;false
 
-browser.search.geoSpecificDefaults.url;
-
-browser.search.geoSpecificDefaults;false
-
 breakpad.reportURL;
-
-browser.search.geoip.url;
-
-browser.search.geoip.timeout;1
 
 geo.enabled;false
 
