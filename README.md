@@ -64,6 +64,8 @@ browser.send_pings;false
 
 browser.cache.offline.enable;false
 
+browser.privatebrowsing.autostart;true
+
 
 =========== Level 3 - Paranoid Protection ===========
 
