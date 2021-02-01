@@ -33,6 +33,8 @@ network.trr.bootstrapAddress;104.16.249.249
 security.OCSP.enabled;0
 
 network.security.esni.enabled;true
+#network.dns.echconfig.enabled;true
+#network.dns.use_https_rr_as_altsvc;true
 
 network.IDN_show_punycode;true
 
