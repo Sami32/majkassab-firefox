@@ -42,9 +42,7 @@ toolkit.telemetry.enabled;false
 
 security.sandbox.content.level;3
 
-#security.sandbox.content.read_path_whitelist
-#security.sandbox.content.write_path_whitelist
-#security.sandbox.content.syscall_whitelist
+#security.sandbox.socket.process.level
 
 =========== Level 2 - High Protection ===========
 
