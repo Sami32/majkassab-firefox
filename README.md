@@ -40,6 +40,11 @@ network.IDN_show_punycode;true
 
 toolkit.telemetry.enabled;false
 
+security.sandbox.content.level;3
+#security.sandbox.content.read_path_whitelist
+#security.sandbox.content.write_path_whitelist
+#security.sandbox.content.syscall_whitelist
+
 =========== Level 2 - High Protection ===========
 
 security.ssl3.rsa_des_ede3_sha;false
