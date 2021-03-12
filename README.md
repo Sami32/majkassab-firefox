@@ -35,6 +35,7 @@ security.OCSP.enabled;0
 network.security.esni.enabled;true
 #network.dns.echconfig.enabled;true
 #network.dns.use_https_rr_as_altsvc;true
+#network.dns.echconfig.fallback_to_origin;false
 
 network.IDN_show_punycode;true
 
