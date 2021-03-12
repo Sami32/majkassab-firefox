@@ -75,6 +75,11 @@ browser.cache.offline.enable;false
 
 browser.privatebrowsing.autostart;true
 
+browser.safebrowsing.downloads.remote.enabled;false
+
+media.eme.enabled;false
+
+media.mediadrm-widevinecdm.visible;false
 
 =========== Level 3 - Paranoid Protection ===========
 
