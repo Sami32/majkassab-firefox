@@ -77,6 +77,10 @@ browser.send_pings;false
 
 browser.cache.offline.enable;false
 
+browser.safebrowsing.malware.enabled;false
+
+browser.safebrowsing.phishing.enabled;false
+
 browser.privatebrowsing.autostart;true
 
 browser.safebrowsing.downloads.remote.enabled;false
