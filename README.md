@@ -81,7 +81,7 @@ browser.privatebrowsing.autostart;true
 
 browser.safebrowsing.downloads.remote.enabled;false
 
-browser.urlbar.speculativeConnect.enabled;false
+browser.urlbar.autocomplete.enabled;false
 
 media.eme.enabled;false
 
