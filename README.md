@@ -81,6 +81,8 @@ browser.privatebrowsing.autostart;true
 
 browser.safebrowsing.downloads.remote.enabled;false
 
+browser.urlbar.speculativeConnect.enabled;false
+
 media.eme.enabled;false
 
 media.mediadrm-widevinecdm.visible;false
