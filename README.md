@@ -25,6 +25,8 @@ security.ssl.require_safe_negotiation;true
 
 security.webauth.u2f;true
 
+security.webauth.webauthn_enable_usbtoken;true
+
 network.trr.mode;3
 
 network.trr.uri;https://mozilla.cloudflare-dns.com/dns-query
