@@ -30,6 +30,7 @@ security.webauth.webauthn_enable_usbtoken;true
 network.trr.mode;3
 
 network.trr.uri;https://mozilla.cloudflare-dns.com/dns-query
+#https://odoh.cloudflare-dns.com/dns-query
 
 network.trr.bootstrapAddress;104.16.249.249
 
